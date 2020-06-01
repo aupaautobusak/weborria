@@ -1,5 +1,6 @@
-/* Aupa Autobusak - CSS pertsonalisatua */
+/* Aupa Autobusak - gure CSS pertsonalisatua */
 
+/* Desplazamendu-barra WebKiten oinarritutako web-nabigatzaileetan pertsonalizatzeko kodea */
 ::-webkit-scrollbar {
 width: 7px;
 background: transparent;
@@ -10,10 +11,14 @@ background: #bc926b;
 border-radius: 5px;
 }
 
+
+/* Web-orritik modu fluidoan mugitzeko kodea */
 html {
     scroll-behavior: smooth;
 }
 
+
+/* Desplazamendu-barra Geckoren oinarritutako web-nabigatzaileetan pertsonalizatzeko kodea */
 html {
     scrollbar-width: thin;
     scrollbar-color: #bc926b #f3f3f3;
