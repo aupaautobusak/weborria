@@ -1,0 +1,24 @@
+/* Aupa Autobusak - CSS pertsonalisatua */
+
+::-webkit-scrollbar {
+width: 7px;
+background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+background: #bc926b;
+border-radius: 5px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html {
+    scrollbar-width: thin;
+    scrollbar-color: #bc926b #f3f3f3;
+}
+
+::selection {
+    background: rgba(255 255 0);
+}
