@@ -23,6 +23,7 @@ html {
     scrollbar-width: thin;
     scrollbar-color: #bc926b #f3f3f3;
 }
+
 /* Testua aukeratzean kolore horia lortzeko */
 ::selection {
     background: rgba(255 255 0);
